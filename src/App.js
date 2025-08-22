@@ -11,7 +11,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router basename="/valdra">
+    <Router>
       <div className="App">
         <Header />
         <main>
