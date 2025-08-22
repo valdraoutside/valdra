@@ -12,7 +12,7 @@ const Header = () => {
     <header className="header">
       <div className="header-container">
         <Link to="/" className="logo-link">
-          <img src="/valdra/logo.png" alt="VALDRA" className="logo" />
+          <img src="/logo.png" alt="VALDRA" className="logo" />
           <span className="logo-text">VALDRA</span>
         </Link>
         

@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="footer-content">
           <div className="footer-section">
             <div className="footer-logo">
-              <img src="/valdra/logo.png" alt="VALDRA" className="footer-logo-img" />
+              <img src="/logo.png" alt="VALDRA" className="footer-logo-img" />
               <span className="footer-logo-text">VALDRA</span>
             </div>
             <p className="footer-tagline">Recover faster. Live wilder.</p>
