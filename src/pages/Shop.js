@@ -48,7 +48,7 @@ const Shop = () => {
             </div>
 
             <div className="coming-soon-image">
-              <img src="/valdra/assets/extra1.jpeg" alt="Product Development" />
+              <img src="/assets/extra1.jpeg" alt="Product Development" />
               <div className="image-overlay">
                 <span>In Development</span>
               </div>

@@ -34,7 +34,7 @@ const About = () => {
               </p>
             </div>
             <div className="story-image fade-in">
-              <img src="/valdra/assets/extra5.jpeg" alt="Lilla and Katie" />
+              <img src="/assets/extra5.jpeg" alt="Lilla and Katie" />
             </div>
           </div>
         </div>

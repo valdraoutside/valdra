@@ -18,17 +18,17 @@ const Landing = () => {
             </p>
             <div className="intro-grid">
               <div className="intro-item">
-                <img src="/valdra/assets/extra1.jpeg" alt="Adventure" className="intro-image" />
+                <img src="/assets/extra1.jpeg" alt="Adventure" className="intro-image" />
                 <h3>Adventure Ready</h3>
                 <p>Gear designed for real-world exploration</p>
               </div>
               <div className="intro-item">
-                <img src="/valdra/assets/extra2.jpeg" alt="Community" className="intro-image" />
+                <img src="/assets/extra2.jpeg" alt="Community" className="intro-image" />
                 <h3>Community Driven</h3>
                 <p>Built by adventurers, for adventurers</p>
               </div>
               <div className="intro-item">
-                <img src="/valdra/assets/extra3.jpeg" alt="Innovation" className="intro-image" />
+                <img src="/assets/extra3.jpeg" alt="Innovation" className="intro-image" />
                 <h3>Innovation First</h3>
                 <p>Rethinking outdoor essentials from the ground up</p>
               </div>
@@ -52,7 +52,7 @@ const Landing = () => {
               </p>
             </div>
             <div className="mission-image">
-              <img src="/valdra/assets/extra4.jpeg" alt="Mission" />
+              <img src="/assets/extra4.jpeg" alt="Mission" />
             </div>
           </div>
         </div>

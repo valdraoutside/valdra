@@ -9,9 +9,9 @@ const HeroCarousel = () => {
     {
       id: 1,
       images: [
-        '/valdra/assets/hero1.jpeg',
-        '/valdra/assets/hero2.jpeg',
-        '/valdra/assets/hero3.jpeg'
+        '/assets/hero1.jpeg',
+        '/assets/hero2.jpeg',
+        '/assets/hero3.jpeg'
       ],
       title: 'VALDRA OUTSIDE.',
       subtitle: '',
@@ -20,9 +20,9 @@ const HeroCarousel = () => {
     {
       id: 2,
       images: [
-        '/valdra/assets/hero4.jpeg',
-        '/valdra/assets/hero5.jpeg',
-        '/valdra/assets/hero6.jpeg'
+        '/assets/hero4.jpeg',
+        '/assets/hero5.jpeg',
+        '/assets/hero6.jpeg'
       ],
       title: 'valdrá: it will be worth it',
       subtitle: '',
@@ -34,9 +34,9 @@ const HeroCarousel = () => {
     {
       id: 3,
       images: [
-        '/valdra/assets/hero7.jpeg',
-        '/valdra/assets/hero8.jpeg',
-        '/valdra/assets/hero9.jpeg'
+        '/assets/hero7.jpeg',
+        '/assets/hero8.jpeg',
+        '/assets/hero9.jpeg'
       ],
       title: 'Recover faster. Live wilder.',
       subtitle: 'First product coming mid-2026',
