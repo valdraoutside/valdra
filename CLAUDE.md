@@ -22,12 +22,9 @@ This is a Create React App (CRA, `react-scripts` 5) single-page marketing site f
 
 ## Deployment
 
-Two paths exist and it's important not to confuse them:
+Deploy with `npm run deploy` — this builds and pushes `build/` to the `gh-pages` branch via the `gh-pages` npm package. GitHub Pages is configured (legacy source mode) to serve from that branch.
 
-1. **GitHub Actions** (`.github/workflows/deploy.yml`) — on push/PR to `main`, builds and deploys to GitHub Pages via `actions/deploy-pages`. This is the active pipeline.
-2. **Manual `npm run deploy`** — uses the `gh-pages` package to push `build/` to a `gh-pages` branch. Leftover from the original setup; using it may conflict with the Actions-based Pages deploy.
-
-Prefer letting the Action deploy. Only run `npm run deploy` if you know why.
+A prior Actions workflow exists at `.github/_archive/deploy.yml` but is intentionally not wired to Actions (moved out of `workflows/`). Pages does not read from Actions on this repo — don't re-enable the Actions-based deploy without also flipping the Pages source setting via the GitHub UI or API.
 
 The site is served at the apex domain `valdraoutside.com` (see `public/CNAME`), not at `/valdra`.
 
