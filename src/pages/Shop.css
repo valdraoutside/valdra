@@ -22,6 +22,10 @@
   line-height: 1.6;
 }
 
+.shop-product {
+  background: #ffffff;
+}
+
 .shop-coming-soon {
   background: #000000;
 }
