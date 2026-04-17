@@ -1,4 +1,5 @@
 import React from 'react';
+import ShopifyBuyButton from '../components/ShopifyBuyButton';
 import './Shop.css';
 
 const Shop = () => {
@@ -12,6 +13,12 @@ const Shop = () => {
               Our first product launches mid-2026. Be the first to know when it's ready.
             </p>
           </div>
+        </div>
+      </section>
+
+      <section className="shop-product section">
+        <div className="container">
+          <ShopifyBuyButton productId="9079168172206" />
         </div>
       </section>
 
