@@ -52,7 +52,6 @@ const Footer = () => {
         
         <div className="footer-bottom">
           <p>&copy; 2026 VALDRA Outside. All rights reserved.</p>
-          <p className="footer-launch">First product launching late-2026</p>
         </div>
       </div>
     </footer>

@@ -106,10 +106,19 @@ const About = () => {
             </div>
             
             <div className="launch-info">
-              <h3>Launch Timeline</h3>
+              <h3>What We're Prototyping</h3>
               <p>
-                Our first product is expected to launch in <strong>late-2026</strong>.
-                We're taking the time to get it right rather than rushing to market.
+                VALDRA is building rugged, semi-reusable "second skin" patches designed to
+                protect skin from friction and hotspots before they disrupt movement in
+                real-world conditions.
+              </p>
+              <p>
+                It's a preventative, low profile, flexible silicone layer that sits on the
+                skin and moves with you, designed to handle friction in high movement,
+                real world conditions. Built to hold when you need it, add light support,
+                and stay comfortable over time, it's meant to be used across a range of
+                pressure points wherever skin starts to get pushed, aiming for multiple
+                uses and not intended for open wounds.
               </p>
               <p>
                 Follow along on our <a href="https://valdraoutside.substack.com/" target="_blank" rel="noopener noreferrer"><strong>Substack</strong></a> for behind-the-scenes updates, gear stories, and dispatches from the trail.

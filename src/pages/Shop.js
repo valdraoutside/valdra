@@ -10,7 +10,9 @@ const Shop = () => {
           <div className="shop-hero-content fade-in">
             <h1>Shop the Drop</h1>
             <p className="hero-subtitle">
-              Our first product launches late-2026. Be the first to know when it's ready.
+              We're funding our next breakthrough the best way we know how—making gear
+              you'll actually want to wear outside, with unique colorways inspired by
+              the friends who shape our story.
             </p>
           </div>
         </div>
@@ -18,6 +20,24 @@ const Shop = () => {
 
       <section className="shop-product section">
         <div className="container">
+          <div className="shop-lineup fade-in">
+            <div className="shop-lineup-item">
+              <h3>Hoodies</h3>
+              <p>
+                Our hoodies are thick, 100 percent cotton with a boxy, slightly
+                oversized fit that feels just as good on a sunrise mission as it does
+                post send—the kind you throw on once and never really take off.
+              </p>
+            </div>
+            <div className="shop-lineup-item">
+              <h3>TrailHEAD Hat</h3>
+              <p>
+                Our TrailHEAD hats are lightweight, durable, breathable, and packable—
+                built to sweat in, get wet, fit under helmets, and clip anywhere, with
+                a lock brim that holds its shape no matter how hard you push it.
+              </p>
+            </div>
+          </div>
           <ShopifyBuyButton productId="9079168172206" />
         </div>
       </section>
@@ -26,31 +46,23 @@ const Shop = () => {
         <div className="container">
           <div className="coming-soon-content fade-in">
             <div className="coming-soon-main">
-              <h2>Coming Soon</h2>
+              <h2>What We're Developing</h2>
               <p>
-                We're currently deep in prototyping and manufacturing conversations 
-                to bring our first product to life. Quality takes time, and we're 
-                committed to getting it right.
+                VALDRA is building rugged, semi-reusable "second skin" patches designed
+                to protect skin from friction and hotspots before they disrupt movement
+                in real-world conditions.
               </p>
-              
-              <div className="product-tease">
-                <h3>What We're Building</h3>
-                <p>
-                  A semi-reusable first-aid apparatus that we believe belongs in 
-                  every dopp kit—outdoorsperson or not. Designed for durability, 
-                  functionality, and ease of use when you need it most.
-                </p>
-              </div>
 
-              <div className="timeline">
-                <h3>Expected Launch</h3>
-                <div className="timeline-item">
-                  <div className="timeline-date">Late-2026</div>
-                  <div className="timeline-content">
-                    <h4>Product Launch</h4>
-                    <p>Our first product will be available for purchase</p>
-                  </div>
-                </div>
+              <div className="product-tease">
+                <h3>How It Works</h3>
+                <p>
+                  It's a preventative, low profile, flexible silicone layer that sits
+                  on the skin and moves with you, designed to handle friction in high
+                  movement, real world conditions. Built to hold when you need it, add
+                  light support, and stay comfortable over time, it's meant to be used
+                  across a range of pressure points wherever skin starts to get pushed,
+                  aiming for multiple uses and not intended for open wounds.
+                </p>
               </div>
             </div>
 
@@ -151,7 +163,7 @@ const Shop = () => {
           <div className="newsletter-content fade-in">
             <h2>Get Notified</h2>
             <p>
-              Subscribe to our Substack to be the first to know when our first product launches.
+              Subscribe to our Substack to be the first to know when new drops land.
               Free signup — drop your email on the next page and you're in.
             </p>
             <div className="newsletter-actions">
