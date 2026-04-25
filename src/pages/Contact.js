@@ -213,13 +213,6 @@ const Contact = () => {
                   </p>
                 </div>
 
-                <div className="newsletter-section">
-                  <h3>Newsletter (Coming Soon)</h3>
-                  <p>
-                    We're planning weekly updates with what we're wearing, hikes we love, 
-                    and behind-the-scenes looks at our development process.
-                  </p>
-                </div>
               </div>
             </div>
           </div>

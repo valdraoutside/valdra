@@ -38,7 +38,7 @@ const FAQ = () => {
     {
       id: 7,
       question: "How can I stay updated on your progress?",
-      answer: "Follow us on Instagram @valdraoutside, TikTok @valdraoutside, or reach out via email at hi@valdraoutside.com. We're also planning a newsletter with weekly updates, gear recommendations, and our favorite hikes."
+      answer: "Subscribe to our Substack at valdraoutside.substack.com for the latest updates, behind-the-scenes looks at our development process, gear recommendations, and our favorite hikes. You can also follow us on Instagram @valdraoutside, TikTok @valdraoutside, or reach out via email at hi@valdraoutside.com."
     },
     {
       id: 8,
@@ -142,7 +142,14 @@ const FAQ = () => {
             </p>
             <div className="cta-buttons">
               <a href="/about" className="btn btn-primary">Learn More</a>
-              <a href="/contact" className="btn">Get Updates</a>
+              <a
+                href="https://valdraoutside.substack.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn"
+              >
+                Subscribe on Substack
+              </a>
             </div>
           </div>
         </div>
