@@ -119,7 +119,7 @@ const optionStyles = {
   select: {
     'font-family': FONT_STACK,
     'font-size': '15px',
-    'background-color': SURFACE_INPUT,
+    'background-color': '#1a1a1a',
     color: TEXT_PRIMARY,
     border: `1px solid ${BORDER_SOFT}`,
     'border-radius': '8px',
@@ -128,7 +128,7 @@ const optionStyles = {
     'padding-left': '14px',
     'padding-right': '40px',
     cursor: 'pointer',
-    ':hover': { 'background-color': SURFACE_INPUT_HOVER, 'border-color': 'rgba(255,255,255,0.3)' },
+    ':hover': { 'background-color': '#222222', 'border-color': 'rgba(255,255,255,0.3)' },
     ':focus': { 'border-color': '#ffffff', outline: 'none' },
   },
   selectIcon: {
@@ -280,7 +280,7 @@ const componentOptions = {
   product: {
     styles: productStyles,
     layout: 'horizontal',
-    contents: { img: true, imgWithCarousel: true, description: true },
+    contents: { img: false, imgWithCarousel: true, description: true },
     width: '100%',
     text: { button: 'Add to cart' },
   },
@@ -374,28 +374,43 @@ const loadSdk = () => {
 
 const ShopifyBuyButton = ({ productId }) => {
   const nodeRef = useRef(null);
+  const componentRef = useRef(null);
 
   useEffect(() => {
     let cancelled = false;
+    const mountNode = nodeRef.current;
+
     loadSdk().then((ShopifyBuy) => {
-      if (cancelled || !nodeRef.current) return;
+      if (cancelled || !mountNode) return;
       const client = ShopifyBuy.buildClient({
         domain: SHOP_DOMAIN,
         storefrontAccessToken: STOREFRONT_ACCESS_TOKEN,
       });
-      ShopifyBuy.UI.onReady(client).then((ui) => {
-        if (cancelled || !nodeRef.current) return;
-        nodeRef.current.innerHTML = '';
+      return ShopifyBuy.UI.onReady(client).then((ui) =>
         ui.createComponent('product', {
           id: productId,
-          node: nodeRef.current,
+          node: mountNode,
           moneyFormat: '%24%7B%7Bamount%7D%7D',
           options: componentOptions,
-        });
-      });
-    });
+        }),
+      );
+    }).then((component) => {
+      if (!component) return;
+      if (cancelled) {
+        if (typeof component.destroy === 'function') component.destroy();
+        return;
+      }
+      componentRef.current = component;
+    }).catch(() => {});
+
     return () => {
       cancelled = true;
+      const component = componentRef.current;
+      componentRef.current = null;
+      if (component && typeof component.destroy === 'function') {
+        try { component.destroy(); } catch (_) { /* noop */ }
+      }
+      if (mountNode) mountNode.innerHTML = '';
     };
   }, [productId]);
 
