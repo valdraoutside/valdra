@@ -197,6 +197,16 @@
   font-weight: 700;
 }
 
+.launch-info-subhead {
+  color: #ffffff;
+  font-size: 1.15rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-top: 28px;
+  margin-bottom: 14px;
+}
+
 .about-values {
   background: #111111;
 }
