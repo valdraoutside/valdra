@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import './Contact.css';
 
+const FORMSPREE_ENDPOINT = 'https://formspree.io/f/mqewjela';
+
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: '',
@@ -8,6 +10,8 @@ const Contact = () => {
     subject: '',
     message: ''
   });
+  const [status, setStatus] = useState('idle'); // 'idle' | 'sending' | 'success' | 'error'
+  const [errorMessage, setErrorMessage] = useState('');
 
   const handleChange = (e) => {
     setFormData({
@@ -16,14 +20,42 @@ const Contact = () => {
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // For now, we'll create a mailto link since this is a static site
-    const subject = encodeURIComponent(formData.subject || 'Contact from VALDRA Website');
-    const body = encodeURIComponent(
-      `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`
-    );
-    window.location.href = `mailto:hi@valdraoutside.com?subject=${subject}&body=${body}`;
+    setStatus('sending');
+    setErrorMessage('');
+
+    try {
+      const response = await fetch(FORMSPREE_ENDPOINT, {
+        method: 'POST',
+        headers: {
+          'Accept': 'application/json',
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+          name: formData.name,
+          email: formData.email,
+          subject: formData.subject || 'Contact from VALDRA Website',
+          message: formData.message,
+          _subject: `VALDRA contact: ${formData.subject || 'New message'}`,
+          _replyto: formData.email
+        })
+      });
+
+      if (response.ok) {
+        setStatus('success');
+        setFormData({ name: '', email: '', subject: '', message: '' });
+      } else {
+        const data = await response.json().catch(() => ({}));
+        const message = data.errors?.map((err) => err.message).join(', ')
+          || 'Something went wrong sending your message. Please try again or email hi@valdraoutside.com directly.';
+        setErrorMessage(message);
+        setStatus('error');
+      }
+    } catch (err) {
+      setErrorMessage('Network error. Please check your connection or email hi@valdraoutside.com directly.');
+      setStatus('error');
+    }
   };
 
   return (
@@ -100,9 +132,24 @@ const Contact = () => {
                   ></textarea>
                 </div>
                 
-                <button type="submit" className="btn btn-primary form-submit">
-                  Send Message
+                <button
+                  type="submit"
+                  className="btn btn-primary form-submit"
+                  disabled={status === 'sending'}
+                >
+                  {status === 'sending' ? 'Sending...' : 'Send Message'}
                 </button>
+
+                {status === 'success' && (
+                  <div className="form-status form-status-success" role="status">
+                    Thanks for reaching out — we got your message and will be in touch soon.
+                  </div>
+                )}
+                {status === 'error' && (
+                  <div className="form-status form-status-error" role="alert">
+                    {errorMessage}
+                  </div>
+                )}
               </form>
             </div>
 
