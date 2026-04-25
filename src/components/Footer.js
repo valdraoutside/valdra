@@ -34,6 +34,9 @@ const Footer = () => {
               <a href="https://tiktok.com/@valdraoutside" target="_blank" rel="noopener noreferrer">
                 TikTok
               </a>
+              <a href="https://valdraoutside.substack.com/" target="_blank" rel="noopener noreferrer">
+                Substack
+              </a>
               <a href="mailto:hi@valdraoutside.com">
                 Email
               </a>
@@ -48,8 +51,8 @@ const Footer = () => {
         </div>
         
         <div className="footer-bottom">
-          <p>&copy; 2024 VALDRA Outside. All rights reserved.</p>
-          <p className="footer-launch">First product launching mid-2026</p>
+          <p>&copy; 2026 VALDRA Outside. All rights reserved.</p>
+          <p className="footer-launch">First product launching late-2026</p>
         </div>
       </div>
     </footer>

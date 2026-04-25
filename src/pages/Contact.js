@@ -154,6 +154,12 @@ const Contact = () => {
                       </svg>
                       <span>TikTok</span>
                     </a>
+                    <a href="https://valdraoutside.substack.com/" target="_blank" rel="noopener noreferrer" className="social-link">
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                        <path d="M4 3h16v3H4zM4 9h16v12L12 16l-8 5z"/>
+                      </svg>
+                      <span>Substack</span>
+                    </a>
                   </div>
                   <p className="social-note">
                     "This is a necessary evil, don't judge us we beg—we aren't TikTok people." 😄

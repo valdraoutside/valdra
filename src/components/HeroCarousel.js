@@ -39,7 +39,7 @@ const HeroCarousel = () => {
         '/assets/hero9.jpeg'
       ],
       title: 'Recover faster. Live wilder.',
-      subtitle: 'First product coming mid-2026',
+      subtitle: 'First product coming late-2026',
       button: {
         text: 'Shop the Drop',
         link: '/shop'
