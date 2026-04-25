@@ -302,22 +302,28 @@
   margin: 0;
 }
 
-.approach-block {
-  margin-bottom: 60px;
+.about-philosophy {
+  background: #0a0a0a;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.philosophy-content {
+  max-width: 1100px;
+  margin: 0 auto;
   text-align: center;
 }
 
-.approach-heading {
+.philosophy-content h2 {
   color: #ffffff;
-  font-size: clamp(1.4rem, 2.8vw, 1.8rem);
-  margin-bottom: 30px;
-  letter-spacing: -0.01em;
+  font-size: clamp(2rem, 4vw, 3rem);
+  margin-bottom: 40px;
 }
 
 .approach-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+  gap: 24px;
   text-align: left;
 }
 
