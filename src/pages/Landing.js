@@ -47,7 +47,7 @@ const Landing = () => {
                 We're building a lasting outdoor community rooted in connection, resilience, and innovation.
               </p>
               <p>
-                Our first product launches mid-2026, and we're committed to pursuing B Corp certification, 
+                Our first product launches late-2026, and we're committed to pursuing B Corp certification,
                 holding ourselves to high environmental and social standards.
               </p>
             </div>

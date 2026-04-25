@@ -108,8 +108,11 @@ const About = () => {
             <div className="launch-info">
               <h3>Launch Timeline</h3>
               <p>
-                Our first product is expected to launch in <strong>mid-2026</strong>. 
+                Our first product is expected to launch in <strong>late-2026</strong>.
                 We're taking the time to get it right rather than rushing to market.
+              </p>
+              <p>
+                Follow along on our <a href="https://valdraoutside.substack.com/" target="_blank" rel="noopener noreferrer"><strong>Substack</strong></a> for behind-the-scenes updates, gear stories, and dispatches from the trail.
               </p>
             </div>
           </div>

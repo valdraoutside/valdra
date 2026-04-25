@@ -8,7 +8,7 @@ const FAQ = () => {
     {
       id: 1,
       question: "What is VALDRA?",
-      answer: "At the moment, we're a budding outdoor community rooted in Telluride, Colorado. We aim to connect adventurers globally. In mid-2026, we'll launch a semi-reusable first-aid apparatus we believe belongs in every dopp kit—outdoorsperson or not. Currently, we're deep in manufacturing and prototyping."
+      answer: "At the moment, we're a budding outdoor community rooted in Telluride, Colorado. We aim to connect adventurers globally. In late-2026, we'll launch a semi-reusable first-aid apparatus we believe belongs in every dopp kit—outdoorsperson or not. Currently, we're deep in manufacturing and prototyping."
     },
     {
       id: 2,
@@ -28,7 +28,7 @@ const FAQ = () => {
     {
       id: 5,
       question: "When will your first product be available?",
-      answer: "Our first product is expected to launch in mid-2026. We're taking the time necessary to ensure it meets our high standards for quality, durability, and functionality."
+      answer: "Our first product is expected to launch in late-2026. We're taking the time necessary to ensure it meets our high standards for quality, durability, and functionality."
     },
     {
       id: 6,

@@ -10,7 +10,7 @@ const Shop = () => {
           <div className="shop-hero-content fade-in">
             <h1>Shop the Drop</h1>
             <p className="hero-subtitle">
-              Our first product launches mid-2026. Be the first to know when it's ready.
+              Our first product launches late-2026. Be the first to know when it's ready.
             </p>
           </div>
         </div>
@@ -45,7 +45,7 @@ const Shop = () => {
               <div className="timeline">
                 <h3>Expected Launch</h3>
                 <div className="timeline-item">
-                  <div className="timeline-date">Mid-2026</div>
+                  <div className="timeline-date">Late-2026</div>
                   <div className="timeline-content">
                     <h4>Product Launch</h4>
                     <p>Our first product will be available for purchase</p>
