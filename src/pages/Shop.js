@@ -43,39 +43,6 @@ const Shop = () => {
         </div>
       </section>
 
-      <section className="shop-philosophy section">
-        <div className="container">
-          <div className="philosophy-content fade-in">
-            <h2>Why We're Taking Our Time</h2>
-            <div className="philosophy-grid">
-              <div className="philosophy-item">
-                <h3>Quality Over Speed</h3>
-                <p>
-                  We'd rather take the time to create something exceptional than 
-                  rush a mediocre product to market. Every detail matters.
-                </p>
-              </div>
-              
-              <div className="philosophy-item">
-                <h3>Real-World Testing</h3>
-                <p>
-                  Our products need to perform in the most demanding conditions. 
-                  We test extensively to ensure reliability when it counts.
-                </p>
-              </div>
-              
-              <div className="philosophy-item">
-                <h3>Sustainable Production</h3>
-                <p>
-                  Finding the right manufacturing partners who align with our 
-                  values of environmental and social responsibility.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       <section className="shop-newsletter section section-dark">
         <div className="container">
           <div className="newsletter-content fade-in">
