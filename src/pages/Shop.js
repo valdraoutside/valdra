@@ -149,13 +149,20 @@ const Shop = () => {
       <section className="shop-newsletter section section-dark">
         <div className="container">
           <div className="newsletter-content fade-in">
-            <h2>Stay Updated</h2>
+            <h2>Get Notified</h2>
             <p>
-              Be the first to know when our products launch, get updates on our 
-              development process, and join our community of adventurers.
+              Subscribe to our Substack to be the first to know when our first product launches.
+              Free signup — drop your email on the next page and you're in.
             </p>
             <div className="newsletter-actions">
-              <a href="/contact" className="btn btn-primary">Get Notified</a>
+              <a
+                href="https://valdraoutside.substack.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-primary"
+              >
+                Subscribe on Substack
+              </a>
               <a href="/faq" className="btn">Learn More</a>
             </div>
             

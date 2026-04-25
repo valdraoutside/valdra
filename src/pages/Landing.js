@@ -68,7 +68,14 @@ const Landing = () => {
             </p>
             <div className="cta-buttons">
               <a href="/about" className="btn btn-primary">Learn More</a>
-              <a href="/contact" className="btn">Get Updates</a>
+              <a
+                href="https://valdraoutside.substack.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn"
+              >
+                Subscribe on Substack
+              </a>
             </div>
           </div>
         </div>
