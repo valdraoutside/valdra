@@ -18,6 +18,7 @@ const Shop = () => {
 
           <div className="shop-lineup fade-in">
             <div className="shop-lineup-item">
+              <span className="lineup-badge">Coming Soon</span>
               <h3>Hoodies</h3>
               <p>
                 Our hoodies are thick, 100 percent cotton with a boxy, slightly

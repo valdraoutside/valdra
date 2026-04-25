@@ -27,7 +27,35 @@
 }
 
 .shop-product {
-  background: #ffffff;
+  background: #0a0a0a;
+}
+
+.shopify-frame {
+  max-width: 960px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 14px;
+  padding: 40px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+}
+
+.shopify-frame-mount {
+  min-height: 400px;
+}
+
+/* OS-native <select> popup options ignore most SDK styles —
+   force dark bg + white text so they remain readable when opened. */
+.shopify-frame select option {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .shopify-frame {
+    padding: 24px;
+    border-radius: 10px;
+  }
 }
 
 .shop-lineup {
@@ -51,6 +79,20 @@
   transform: translateY(-4px);
   background: rgba(255, 255, 255, 0.06);
   border-color: rgba(255, 255, 255, 0.25);
+}
+
+.lineup-badge {
+  display: inline-block;
+  background: rgba(246, 201, 14, 0.15);
+  color: #f6e05e;
+  border: 1px solid rgba(246, 201, 14, 0.35);
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  padding: 6px 12px;
+  border-radius: 999px;
+  margin-bottom: 14px;
 }
 
 .shop-lineup-item h3 {
