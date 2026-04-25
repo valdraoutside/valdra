@@ -110,6 +110,31 @@
   align-self: flex-start;
 }
 
+.form-submit:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.form-status {
+  margin-top: 10px;
+  padding: 14px 18px;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.form-status-success {
+  background: rgba(72, 187, 120, 0.12);
+  border: 1px solid rgba(72, 187, 120, 0.4);
+  color: #9ae6b4;
+}
+
+.form-status-error {
+  background: rgba(229, 62, 62, 0.12);
+  border: 1px solid rgba(229, 62, 62, 0.4);
+  color: #feb2b2;
+}
+
 .contact-info-section {
   display: flex;
   flex-direction: column;
