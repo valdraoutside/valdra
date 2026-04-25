@@ -120,6 +120,19 @@ const About = () => {
                 pressure points wherever skin starts to get pushed, aiming for multiple
                 uses and not intended for open wounds.
               </p>
+              <h4 className="launch-info-subhead">Prototype Progress</h4>
+              <p>
+                We've pushed through prototype iterations one and two and are now deep in
+                our third, where things are finally clicking. We've landed on a custom
+                silicone formulation that performs exactly how we need it to, finalized
+                our patch silhouettes, and invested in injection molds that now live with
+                our manufacturer.
+              </p>
+              <p>
+                The next major step is partnering with a leading adhesives company that's
+                taken a real interest in what we're building and is now working with us to
+                develop a solution tailored specifically to this product.
+              </p>
               <p>
                 Follow along on our <a href="https://valdraoutside.substack.com/" target="_blank" rel="noopener noreferrer"><strong>Substack</strong></a> for behind-the-scenes updates, gear stories, and dispatches from the trail.
               </p>
