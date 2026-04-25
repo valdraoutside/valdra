@@ -11,8 +11,9 @@ const Header = () => {
   return (
     <header className="header">
       <div className="header-container">
-        <Link to="/" className="logo-link" aria-label="VALDRA home">
+        <Link to="/" className="logo-link">
           <img src="/logo.png" alt="VALDRA" className="logo" />
+          <span className="logo-text">VALDRA</span>
         </Link>
         
         <nav className={`nav ${isMenuOpen ? 'nav-open' : ''}`}>
