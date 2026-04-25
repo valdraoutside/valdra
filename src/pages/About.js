@@ -159,6 +159,33 @@ const About = () => {
               </div>
             </div>
 
+            <div className="approach-block">
+              <h3 className="approach-heading">Why We're Taking Our Time</h3>
+              <div className="approach-grid">
+                <div className="approach-item">
+                  <h4>Quality Over Speed</h4>
+                  <p>
+                    We'd rather take the time to create something exceptional than rush
+                    a mediocre product to market. Every detail matters.
+                  </p>
+                </div>
+                <div className="approach-item">
+                  <h4>Real-World Testing</h4>
+                  <p>
+                    Our products need to perform in the most demanding conditions. We
+                    test extensively to ensure reliability when it counts.
+                  </p>
+                </div>
+                <div className="approach-item">
+                  <h4>Sustainable Production</h4>
+                  <p>
+                    Finding the right manufacturing partners who align with our values
+                    of environmental and social responsibility.
+                  </p>
+                </div>
+              </div>
+            </div>
+
             <div className="progress-cta">
               <p>
                 Want the full behind-the-scenes? Subscribe to our Substack for build
