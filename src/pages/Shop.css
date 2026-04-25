@@ -81,23 +81,31 @@
   border-color: rgba(255, 255, 255, 0.25);
 }
 
+.shop-lineup-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
 .lineup-badge {
-  display: inline-block;
+  flex-shrink: 0;
   background: rgba(246, 201, 14, 0.15);
   color: #f6e05e;
   border: 1px solid rgba(246, 201, 14, 0.35);
-  font-size: 0.72rem;
+  font-size: 0.7rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.14em;
-  padding: 6px 12px;
+  padding: 5px 11px;
   border-radius: 999px;
-  margin-bottom: 14px;
+  white-space: nowrap;
 }
 
 .shop-lineup-item h3 {
   color: #ffffff;
-  margin-bottom: 14px;
+  margin: 0;
   font-size: 1.4rem;
   letter-spacing: -0.01em;
 }

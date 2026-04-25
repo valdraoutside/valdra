@@ -18,8 +18,10 @@ const Shop = () => {
 
           <div className="shop-lineup fade-in">
             <div className="shop-lineup-item">
-              <span className="lineup-badge">Coming Soon</span>
-              <h3>Hoodies</h3>
+              <div className="shop-lineup-header">
+                <h3>Hoodies</h3>
+                <span className="lineup-badge">Coming Soon</span>
+              </div>
               <p>
                 Our hoodies are thick, 100 percent cotton with a boxy, slightly
                 oversized fit that feels just as good on a sunrise mission as it does
@@ -27,7 +29,9 @@ const Shop = () => {
               </p>
             </div>
             <div className="shop-lineup-item">
-              <h3>TrailHEAD Hat</h3>
+              <div className="shop-lineup-header">
+                <h3>TrailHEAD Hat</h3>
+              </div>
               <p>
                 Our TrailHEAD hats are lightweight, durable, breathable, and packable—
                 built to sweat in, get wet, fit under helmets, and clip anywhere, with
