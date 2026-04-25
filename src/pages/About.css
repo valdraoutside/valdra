@@ -134,77 +134,191 @@
   line-height: 1.6;
 }
 
+.section-eyebrow {
+  display: inline-block;
+  color: #aaaaaa;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  margin-bottom: 14px;
+}
+
+.about-patch {
+  background: #111111;
+}
+
+.patch-intro {
+  text-align: center;
+  max-width: 760px;
+  margin: 0 auto 70px;
+}
+
+.patch-intro h2 {
+  color: #ffffff;
+  margin-bottom: 24px;
+  font-size: clamp(2rem, 4vw, 3rem);
+}
+
+.patch-lead {
+  color: #d4d4d4;
+  font-size: 1.2rem;
+  line-height: 1.7;
+}
+
+.patch-detail {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.patch-detail-text h3 {
+  color: #ffffff;
+  font-size: 1.6rem;
+  margin-bottom: 24px;
+}
+
+.patch-detail-text p {
+  color: #cccccc;
+  line-height: 1.8;
+  font-size: 1.05rem;
+  margin-bottom: 20px;
+}
+
+.patch-detail-text p:last-child {
+  margin-bottom: 0;
+}
+
+.patch-detail-image {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+}
+
+.patch-detail-image img {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.patch-detail-image:hover img {
+  transform: scale(1.04);
+}
+
 .about-progress {
   background: #000000;
 }
 
 .progress-content {
-  max-width: 900px;
+  max-width: 1100px;
   margin: 0 auto;
+  text-align: center;
 }
 
 .progress-content h2 {
   color: #ffffff;
-  text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 18px;
+  font-size: clamp(2rem, 4vw, 3rem);
 }
 
-.progress-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 40px;
-  margin-bottom: 60px;
-}
-
-.progress-item {
-  text-align: center;
-  padding: 20px;
-}
-
-.progress-item h3 {
-  color: #ffffff;
-  margin-bottom: 20px;
-  font-size: 1.4rem;
-}
-
-.progress-item p {
+.progress-lead {
   color: #cccccc;
-  line-height: 1.7;
-}
-
-.launch-info {
-  text-align: center;
-  background: rgba(255, 255, 255, 0.03);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  padding: 40px;
-  border-radius: 12px;
-}
-
-.launch-info h3 {
-  color: #ffffff;
-  margin-bottom: 20px;
-  font-size: 1.5rem;
-}
-
-.launch-info p {
-  color: #cccccc;
-  font-size: 1.1rem;
-  line-height: 1.7;
-}
-
-.launch-info strong {
-  color: #ffffff;
-  font-weight: 700;
-}
-
-.launch-info-subhead {
-  color: #ffffff;
   font-size: 1.15rem;
+  line-height: 1.7;
+  max-width: 720px;
+  margin: 0 auto 60px;
+}
+
+.milestone-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 24px;
+  margin-bottom: 60px;
+  text-align: left;
+}
+
+.milestone {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 28px 24px;
+  transition: transform 0.3s ease, border-color 0.3s ease, background 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.milestone:hover {
+  transform: translateY(-4px);
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.milestone-status {
+  align-self: flex-start;
+  font-size: 0.72rem;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.08em;
-  margin-top: 28px;
-  margin-bottom: 14px;
+  letter-spacing: 0.14em;
+  padding: 6px 12px;
+  border-radius: 999px;
+  margin-bottom: 18px;
+}
+
+.milestone-done {
+  background: rgba(72, 187, 120, 0.15);
+  color: #9ae6b4;
+  border: 1px solid rgba(72, 187, 120, 0.35);
+}
+
+.milestone-active {
+  background: rgba(246, 201, 14, 0.15);
+  color: #f6e05e;
+  border: 1px solid rgba(246, 201, 14, 0.35);
+}
+
+.milestone-next {
+  background: rgba(255, 255, 255, 0.08);
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.milestone h4 {
+  color: #ffffff;
+  font-size: 1.2rem;
+  margin-bottom: 12px;
+  letter-spacing: -0.01em;
+}
+
+.milestone p {
+  color: #aaaaaa;
+  line-height: 1.65;
+  font-size: 0.95rem;
+  margin: 0;
+}
+
+.progress-cta {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 36px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.progress-cta p {
+  color: #cccccc;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  margin: 0;
 }
 
 .about-values {
@@ -291,19 +405,30 @@
     padding: 80px 0;
   }
 
-  .story-content {
+  .story-content,
+  .patch-detail {
     grid-template-columns: 1fr;
     gap: 40px;
   }
 
-  .story-image img {
+  .story-image img,
+  .patch-detail-image img {
     height: 300px;
   }
 
-  .vision-grid,
-  .progress-grid {
+  .patch-intro {
+    margin-bottom: 50px;
+  }
+
+  .vision-grid {
     grid-template-columns: 1fr;
     gap: 30px;
+  }
+
+  .milestone-grid {
+    grid-template-columns: 1fr;
+    gap: 18px;
+    margin-bottom: 40px;
   }
 
   .values-grid {
@@ -311,8 +436,8 @@
     gap: 25px;
   }
 
-  .launch-info {
-    padding: 30px 20px;
+  .progress-cta {
+    padding: 28px 22px;
   }
 }
 
@@ -325,8 +450,9 @@
     padding: 60px 0;
   }
 
-  .story-image img {
-    height: 250px;
+  .story-image img,
+  .patch-detail-image img {
+    height: 240px;
   }
 
   .vision-item,
@@ -334,12 +460,8 @@
     padding: 20px;
   }
 
-  .launch-info {
-    padding: 25px 15px;
-  }
-
-  .progress-item {
-    padding: 15px;
+  .milestone {
+    padding: 24px 20px;
   }
 }
 

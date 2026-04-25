@@ -77,65 +77,101 @@ const About = () => {
         </div>
       </section>
 
+      <section className="about-patch section">
+        <div className="container">
+          <div className="patch-intro fade-in">
+            <span className="section-eyebrow">The Product</span>
+            <h2>Meet the Patch</h2>
+            <p className="patch-lead">
+              VALDRA is building rugged, semi-reusable "second skin" patches designed to
+              protect skin from friction and hotspots before they disrupt movement in
+              real-world conditions.
+            </p>
+          </div>
+
+          <div className="patch-detail fade-in">
+            <div className="patch-detail-text">
+              <h3>How It Works</h3>
+              <p>
+                It's a preventative, low profile, flexible silicone layer that sits on
+                the skin and moves with you, designed to handle friction in high
+                movement, real world conditions.
+              </p>
+              <p>
+                Built to hold when you need it, add light support, and stay comfortable
+                over time, it's meant to be used across a range of pressure points
+                wherever skin starts to get pushed—aiming for multiple uses and not
+                intended for open wounds.
+              </p>
+            </div>
+            <div className="patch-detail-image">
+              <img src="/assets/extra2.jpeg" alt="VALDRA patch in development" />
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="about-progress section">
         <div className="container">
           <div className="progress-content fade-in">
-            <h2>Where We Are Now</h2>
-            <div className="progress-grid">
-              <div className="progress-item">
-                <h3>Prototyping</h3>
+            <span className="section-eyebrow">Where We Are Now</span>
+            <h2>Prototype Progress</h2>
+            <p className="progress-lead">
+              We've pushed through iterations one and two and are now deep in our third,
+              where things are finally clicking. Here's where each piece stands today.
+            </p>
+
+            <div className="milestone-grid">
+              <div className="milestone">
+                <div className="milestone-status milestone-done">Complete</div>
+                <h4>Iterations 1 & 2</h4>
                 <p>
-                  Currently deep in the prototyping phase, testing and refining our 
-                  first product to ensure it meets our high standards.
+                  Two full prototype rounds in the rear-view, each one teaching us
+                  what to keep and what to throw out.
                 </p>
               </div>
-              <div className="progress-item">
-                <h3>Manufacturing</h3>
+
+              <div className="milestone">
+                <div className="milestone-status milestone-active">Dialed In</div>
+                <h4>Custom Silicone</h4>
                 <p>
-                  In active conversations with manufacturers to bring our vision to life 
-                  with quality and sustainability in mind.
+                  Landed on a bespoke silicone formulation that performs exactly the
+                  way we need it to on skin and through movement.
                 </p>
               </div>
-              <div className="progress-item">
-                <h3>Community</h3>
+
+              <div className="milestone">
+                <div className="milestone-status milestone-active">At Manufacturer</div>
+                <h4>Injection Molds</h4>
                 <p>
-                  Building a brand that grows with our community. If you're reading this, 
-                  you're already part of it.
+                  Patch silhouettes finalized, and the injection molds we invested in
+                  now live with our manufacturing partner.
+                </p>
+              </div>
+
+              <div className="milestone">
+                <div className="milestone-status milestone-next">Up Next</div>
+                <h4>Adhesives Partnership</h4>
+                <p>
+                  Teaming up with a leading adhesives company that's taken a real
+                  interest in this product and is developing a tailored solution with us.
                 </p>
               </div>
             </div>
-            
-            <div className="launch-info">
-              <h3>What We're Prototyping</h3>
+
+            <div className="progress-cta">
               <p>
-                VALDRA is building rugged, semi-reusable "second skin" patches designed to
-                protect skin from friction and hotspots before they disrupt movement in
-                real-world conditions.
+                Want the full behind-the-scenes? Subscribe to our Substack for build
+                updates, gear stories, and dispatches from the trail.
               </p>
-              <p>
-                It's a preventative, low profile, flexible silicone layer that sits on the
-                skin and moves with you, designed to handle friction in high movement,
-                real world conditions. Built to hold when you need it, add light support,
-                and stay comfortable over time, it's meant to be used across a range of
-                pressure points wherever skin starts to get pushed, aiming for multiple
-                uses and not intended for open wounds.
-              </p>
-              <h4 className="launch-info-subhead">Prototype Progress</h4>
-              <p>
-                We've pushed through prototype iterations one and two and are now deep in
-                our third, where things are finally clicking. We've landed on a custom
-                silicone formulation that performs exactly how we need it to, finalized
-                our patch silhouettes, and invested in injection molds that now live with
-                our manufacturer.
-              </p>
-              <p>
-                The next major step is partnering with a leading adhesives company that's
-                taken a real interest in what we're building and is now working with us to
-                develop a solution tailored specifically to this product.
-              </p>
-              <p>
-                Follow along on our <a href="https://valdraoutside.substack.com/" target="_blank" rel="noopener noreferrer"><strong>Substack</strong></a> for behind-the-scenes updates, gear stories, and dispatches from the trail.
-              </p>
+              <a
+                href="https://valdraoutside.substack.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-primary"
+              >
+                Subscribe on Substack
+              </a>
             </div>
           </div>
         </div>
