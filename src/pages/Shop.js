@@ -16,6 +16,10 @@ const Shop = () => {
             </p>
           </div>
 
+          <div className="shop-product-mount fade-in">
+            <ShopifyBuyButton productId="9079168172206" />
+          </div>
+
           <div className="shop-lineup fade-in">
             <div className="shop-lineup-item">
               <div className="shop-lineup-header">
@@ -39,12 +43,6 @@ const Shop = () => {
               </p>
             </div>
           </div>
-        </div>
-      </section>
-
-      <section className="shop-product section">
-        <div className="container">
-          <ShopifyBuyButton productId="9079168172206" />
         </div>
       </section>
 
