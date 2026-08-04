@@ -372,13 +372,15 @@ const loadSdk = () => {
   return sdkPromise;
 };
 
-const ShopifyBuyButton = ({ productId }) => {
+const ShopifyBuyButton = ({ productId, collectionId }) => {
   const nodeRef = useRef(null);
   const componentRef = useRef(null);
 
   useEffect(() => {
     let cancelled = false;
     const mountNode = nodeRef.current;
+    const componentType = collectionId ? 'collection' : 'product';
+    const id = collectionId || productId;
 
     loadSdk().then((ShopifyBuy) => {
       if (cancelled || !mountNode) return;
@@ -387,8 +389,8 @@ const ShopifyBuyButton = ({ productId }) => {
         storefrontAccessToken: STOREFRONT_ACCESS_TOKEN,
       });
       return ShopifyBuy.UI.onReady(client).then((ui) =>
-        ui.createComponent('product', {
-          id: productId,
+        ui.createComponent(componentType, {
+          id,
           node: mountNode,
           moneyFormat: '%24%7B%7Bamount%7D%7D',
           options: componentOptions,
@@ -412,7 +414,7 @@ const ShopifyBuyButton = ({ productId }) => {
       }
       if (mountNode) mountNode.innerHTML = '';
     };
-  }, [productId]);
+  }, [productId, collectionId]);
 
   return (
     <div className="shopify-frame">
