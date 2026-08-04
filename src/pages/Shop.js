@@ -16,7 +16,7 @@ const Shop = () => {
           </div>
 
           <div className="shop-product-mount fade-in">
-            <ShopifyBuyButton collectionId="347025440942" />
+            <ShopifyBuyButton productId="9155548676270" />
           </div>
 
         </div>
