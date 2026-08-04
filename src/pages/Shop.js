@@ -9,6 +9,7 @@ const Shop = () => {
         <div className="container">
           <div className="shop-hero-content fade-in">
             <h1>Shop the Drop</h1>
+            <p className="shop-hero-tagline">you know you want to</p>
           </div>
 
           <div className="shop-product-mount fade-in">
