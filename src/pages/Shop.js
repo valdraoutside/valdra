@@ -9,40 +9,16 @@ const Shop = () => {
         <div className="container">
           <div className="shop-hero-content fade-in">
             <h1>Shop the Drop</h1>
-            <p className="hero-subtitle">
-              We're funding our next breakthrough the best way we know how—making gear
-              you'll actually want to wear outside, with unique colorways inspired by
-              the friends who shape our story.
-            </p>
           </div>
 
           <div className="shop-product-mount fade-in">
             <ShopifyBuyButton productId="9079168172206" />
           </div>
 
-          <div className="shop-lineup fade-in">
-            <div className="shop-lineup-item">
-              <div className="shop-lineup-header">
-                <h3>Hoodies</h3>
-                <span className="lineup-badge">Coming Soon</span>
-              </div>
-              <p>
-                Our hoodies are thick, 100 percent cotton with a boxy, slightly
-                oversized fit that feels just as good on a sunrise mission as it does
-                post send—the kind you throw on once and never really take off.
-              </p>
-            </div>
-            <div className="shop-lineup-item">
-              <div className="shop-lineup-header">
-                <h3>TrailHEAD Hat</h3>
-              </div>
-              <p>
-                Our TrailHEAD hats are lightweight, durable, breathable, and packable—
-                built to sweat in, get wet, fit under helmets, and clip anywhere, with
-                a lock brim that holds its shape no matter how hard you push it.
-              </p>
-            </div>
+          <div className="shop-product-mount fade-in">
+            <ShopifyBuyButton collectionId="347025440942" />
           </div>
+
         </div>
       </section>
 
