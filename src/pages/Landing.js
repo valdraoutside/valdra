@@ -13,8 +13,8 @@ const Landing = () => {
             <h2>Gear that keeps up</h2>
             <p>
               We're building gear for the people who go big, get a little scraped up,
-              and come back for more. From the Manaslu Circuit to a sunset lap on Mill
-              Creek, VALDRA is for anyone who'd rather be outside.
+              and come back for more. From the Manaslu Circuit to a sunset lap in the San
+              Juans, VALDRA is for anyone who'd rather be outside.
             </p>
             <div className="intro-grid">
               <div className="intro-item">
