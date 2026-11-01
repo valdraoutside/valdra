@@ -7,6 +7,23 @@ const Shop = () => {
     <div className="shop">
       <section className="shop-hero">
         <div className="container">
+          <aside className="shop-announcement fade-in" role="status">
+            <span className="shop-announcement-eyebrow">Heads Up</span>
+            <h2>VALDRA is in Vietnam</h2>
+            <p>
+              We're out exploring Vietnam, surfing and climbing, with exciting
+              things in the works for the winter. Order fulfillment is on pause
+              while we're gone.
+            </p>
+            <p className="shop-announcement-details">
+              Anything ordered between <strong>Nov 1 and Nov 22</strong> ships
+              on <strong>November 23rd</strong>.
+            </p>
+            <p className="shop-announcement-signoff">
+              Stay tuned, and we love you guys! 🇻🇳
+            </p>
+          </aside>
+
           <div className="shop-hero-content fade-in">
             <h1>Shop the Drop</h1>
             <p className="shop-hero-tagline">you know you want to</p>
@@ -26,10 +43,9 @@ const Shop = () => {
       <section className="shop-newsletter section section-dark">
         <div className="container">
           <div className="newsletter-content fade-in">
-            <h2>Get Notified</h2>
+            <h2>Don't Miss the Next Drop</h2>
             <p>
-              Subscribe to our Substack to be the first to know when new drops land.
-              Free signup — drop your email on the next page and you're in.
+              Our drops sell out fast, so stay in the loop!
             </p>
             <div className="newsletter-actions">
               <a
@@ -44,7 +60,7 @@ const Shop = () => {
             </div>
             
             <div className="social-links">
-              <h3>Follow Our Journey</h3>
+              <h3>See You Out There</h3>
               <div className="social-buttons">
                 <a href="https://instagram.com/valdraoutside" target="_blank" rel="noopener noreferrer" className="social-btn">
                   Instagram

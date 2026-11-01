@@ -8,12 +8,12 @@ const FAQ = () => {
     {
       id: 1,
       question: "What is VALDRA?",
-      answer: "At the moment, we're a budding outdoor community rooted in Telluride, Colorado, working to connect adventurers globally. We're prototyping rugged, semi-reusable \"second skin\" patches—a preventative, low-profile silicone layer designed to protect skin from friction and hotspots before they disrupt movement in real-world conditions. Currently, we're deep in manufacturing and prototyping."
+      answer: "At the moment, we're a budding outdoor community rooted in Telluride, Colorado, working to connect adventurers globally. We're prototyping rugged, semi-reusable \"second skin\" patches: a preventative, low-profile silicone layer designed to protect skin from friction and hotspots before they disrupt movement in real-world conditions. Currently, we're deep in manufacturing and prototyping."
     },
     {
       id: 2,
       question: "Why are you being secretive about the product?",
-      answer: "We're in an early prototyping stage where every small decision matters. By keeping details quiet, we protect the innovation, ensure proper testing, and give the launch its best chance to succeed. The secrecy isn't hype—it's integrity. You'll be the first to know when it's ready."
+      answer: "Honestly? We've poured a lot of late nights (and money) into this, and we want to get it right before we show it off. Some of it is still being tested in our kitchen. Subscribe to the Substack and you'll be the first to see it."
     },
     {
       id: 3,
@@ -23,7 +23,7 @@ const FAQ = () => {
     {
       id: 4,
       question: "Does VALDRA have a mission beyond this product?",
-      answer: "Yes. Our mission is to build a lasting outdoor community rooted in connection, resilience, and innovation. We aim to design affordable, durable gear that empowers people to stay out longer and access inspiring outdoor spaces. We also plan to pursue B Corp certification, holding ourselves to high environmental and social standards. At its core, VALDRA is about more than equipment—it's about inspiring people to share in the adventure."
+      answer: "Yes. We want to make affordable, tough gear that keeps people out longer, and build a crew of people who love being outside as much as we do. We're also working toward B Corp certification, because the mountains we play in deserve it."
     },
     {
       id: 5,
@@ -33,7 +33,7 @@ const FAQ = () => {
     {
       id: 6,
       question: "Where are you based?",
-      answer: "We're rooted in Telluride, Colorado, but we're building a global community of outdoor enthusiasts. Our Western Slope roots keep us grounded in authentic outdoor culture."
+      answer: "Telluride, Colorado. Best backyard on the planet, and the Western Slope crew that got us here."
     },
     {
       id: 7,
@@ -135,10 +135,10 @@ const FAQ = () => {
       <section className="faq-cta section section-dark">
         <div className="container text-center">
           <div className="cta-content fade-in">
-            <h2>Ready to Join the Adventure?</h2>
+            <h2>Still Curious?</h2>
             <p>
-              Be part of our community and get early access to updates, 
-              events, and product launches.
+              Come hang. We post the real updates on Substack, and the fun stuff on
+              Instagram and TikTok. If you're in Telluride, let's get after it.
             </p>
             <div className="cta-buttons">
               <a href="/about" className="btn btn-primary">Learn More</a>
