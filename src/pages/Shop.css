@@ -8,6 +8,68 @@
   text-align: center;
 }
 
+.shop-announcement {
+  max-width: 760px;
+  margin: 0 auto 60px;
+  padding: 36px 40px;
+  background: rgba(246, 201, 14, 0.06);
+  border: 1px solid rgba(246, 201, 14, 0.35);
+  border-radius: 14px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+}
+
+.shop-announcement-eyebrow {
+  display: inline-block;
+  background: rgba(246, 201, 14, 0.15);
+  color: #f6e05e;
+  border: 1px solid rgba(246, 201, 14, 0.35);
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  padding: 5px 11px;
+  border-radius: 999px;
+  margin-bottom: 16px;
+}
+
+.shop-announcement h2 {
+  color: #ffffff;
+  font-size: clamp(1.6rem, 3.5vw, 2.4rem);
+  margin: 0 0 16px;
+  letter-spacing: -0.01em;
+}
+
+.shop-announcement p {
+  color: #cccccc;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  margin: 0 0 14px;
+}
+
+.shop-announcement-details {
+  color: #ffffff;
+  font-size: 1.15rem;
+}
+
+.shop-announcement-details strong {
+  color: #f6e05e;
+}
+
+.shop-announcement .shop-announcement-signoff {
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 6px 0 0;
+}
+
+@media (max-width: 768px) {
+  .shop-announcement {
+    padding: 26px 22px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+  }
+}
+
 .shop-hero-content h1 {
   color: #ffffff;
   margin-bottom: 6px;
