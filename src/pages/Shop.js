@@ -43,10 +43,9 @@ const Shop = () => {
       <section className="shop-newsletter section section-dark">
         <div className="container">
           <div className="newsletter-content fade-in">
-            <h2>Get Notified</h2>
+            <h2>Don't Miss the Next Drop</h2>
             <p>
-              Subscribe to our Substack to be the first to know when new drops land.
-              Free signup: drop your email on the next page and you're in.
+              Our drops sell out fast, so stay in the loop!
             </p>
             <div className="newsletter-actions">
               <a
@@ -61,7 +60,7 @@ const Shop = () => {
             </div>
             
             <div className="social-links">
-              <h3>Follow Our Journey</h3>
+              <h3>See You Out There</h3>
               <div className="social-buttons">
                 <a href="https://instagram.com/valdraoutside" target="_blank" rel="noopener noreferrer" className="social-btn">
                   Instagram

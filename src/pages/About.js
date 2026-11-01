@@ -9,7 +9,7 @@ const About = () => {
           <div className="about-hero-content fade-in">
             <h1>Welcome to VALDRA Outside</h1>
             <p className="hero-subtitle">
-              Building gear and community for adventurers who go for it
+              Started by best friends on a trail in Nepal. Built in Telluride.
             </p>
           </div>
         </div>
@@ -21,16 +21,23 @@ const About = () => {
             <div className="story-text fade-in">
               <h2>Our Story</h2>
               <p>
-                Hi! We're Lilla & Katie, best buds who started VALDRA after too many hikes 
-                with busted gear and not enough products that could actually keep up.
+                VALDRA started with two best friends, Katie and Lilla, on the Manaslu Circuit
+                in Nepal in April 2025. Carrying everything on their backs, they watched their
+                gear fall apart right when they needed it most. Someone had to build better
+                stuff. So why not them?
               </p>
               <p>
-                The idea first sparked while trekking through the Himalayas last April. 
-                Carrying everything we needed on our backs, we realized just how much gear 
-                fails when you actually need it. We wanted something better.
+                Back home in Telluride, they got to work. The name came out of nowhere because
+                they just liked how it sounded. Then a friend told them <em>valdrá</em> is
+                Spanish for "it will be worth it." That felt like a sign.
               </p>
               <p>
-                So we made it.
+                VALDRA has always been built by friends, for friends. It's in every hat
+                colorway inspired by someone we love, every shoot with our crew on the
+                Western Slope, and every person who's helped us get here.
+              </p>
+              <p>
+                It will be worth it.
               </p>
             </div>
             <div className="story-image fade-in">
@@ -52,24 +59,24 @@ const About = () => {
             
             <div className="vision-grid">
               <div className="vision-item">
-                <h3>The Adventurer</h3>
+                <h3>The Send-It Crew</h3>
                 <p>
-                  Those who seek the summit, the hidden trail, the next great challenge. 
-                  You need gear that performs when everything depends on it.
+                  Skiing 100 days a season, linking climbs, chasing the next big trip.
+                  You need gear that doesn't quit before you do.
                 </p>
               </div>
               <div className="vision-item">
-                <h3>The Explorer</h3>
+                <h3>The Wanderer</h3>
                 <p>
-                  Curious souls who find adventure in unexpected places. From urban 
-                  exploration to weekend camping trips.
+                  The ones who pull over at the random roadside orchard. Weekend camping,
+                  the long way home, whatever looks fun.
                 </p>
               </div>
               <div className="vision-item">
-                <h3>The Community</h3>
+                <h3>The Crew</h3>
                 <p>
-                  People who believe that the best adventures are shared. Building 
-                  connections through outdoor experiences.
+                  The friends who belay you, film you, and won't let you quit halfway up
+                  the wall.
                 </p>
               </div>
             </div>
@@ -117,8 +124,8 @@ const About = () => {
             <span className="section-eyebrow">Where We Are Now</span>
             <h2>Prototype Progress</h2>
             <p className="progress-lead">
-              We've pushed through iterations one and two and are now deep in our third,
-              where things are finally clicking. Here's where each piece stands today.
+              Iterations one and two are behind us, and round three is where it's finally
+              clicking. Here's where everything stands (wallets are hurting, spirits are high).
             </p>
 
             <div className="milestone-grid">
@@ -184,24 +191,23 @@ const About = () => {
             <h2>Why We're Taking Our Time</h2>
             <div className="approach-grid">
               <div className="approach-item">
-                <h4>Quality Over Speed</h4>
+                <h4>Go Slow to Go Fast</h4>
                 <p>
-                  We'd rather take the time to create something exceptional than rush
-                  a mediocre product to market. Every detail matters.
+                  We'd rather get it right than get it out. Rushing a patch that peels
+                  off mid-climb helps nobody.
                 </p>
               </div>
               <div className="approach-item">
-                <h4>Real-World Testing</h4>
+                <h4>Tested on Us First</h4>
                 <p>
-                  Our products need to perform in the most demanding conditions. We
-                  test extensively to ensure reliability when it counts.
+                  Every prototype goes skiing, hiking, and climbing with us. If it can't
+                  handle sweat and friction, it doesn't make the cut.
                 </p>
               </div>
               <div className="approach-item">
-                <h4>Sustainable Production</h4>
+                <h4>Partners We Trust</h4>
                 <p>
-                  Finding the right manufacturing partners who align with our values
-                  of environmental and social responsibility.
+                  We work with US partners we actually know by name (shoutout Steve).
                 </p>
               </div>
             </div>
@@ -215,20 +221,20 @@ const About = () => {
             <h2>Our Values</h2>
             <div className="values-grid">
               <div className="value-item">
-                <h4>Quality First</h4>
-                <p>We won't release anything until it meets our rigorous standards for durability and performance.</p>
+                <h4>Worth It</h4>
+                <p>It's in the name. If it isn't worth it, we won't sell it.</p>
               </div>
               <div className="value-item">
-                <h4>Community Driven</h4>
-                <p>Every decision we make considers our community of adventurers and their real-world needs.</p>
+                <h4>Our People First</h4>
+                <p>The Western Slope crew got us here. We build with them in mind.</p>
               </div>
               <div className="value-item">
-                <h4>Environmental Responsibility</h4>
-                <p>Planning to pursue B Corp certification to hold ourselves accountable to environmental and social standards.</p>
+                <h4>Protect the Playground</h4>
+                <p>We're working toward B Corp certification to keep ourselves honest about our impact.</p>
               </div>
               <div className="value-item">
-                <h4>Authentic Innovation</h4>
-                <p>We innovate to solve real problems, not just to be different. Function drives form.</p>
+                <h4>Solve Real Problems</h4>
+                <p>We started this because our own gear failed us. Every design starts from a real blister, not a mood board.</p>
               </div>
             </div>
           </div>
@@ -243,8 +249,8 @@ const About = () => {
               Much love to our Western Slope peeps. Reach out if you want to get involved. ♥
             </p>
             <p className="cta-signature">
-              <em>Let's get out there,</em><br />
-              <strong>Lilla & Katie</strong>
+              <em>See you out there,</em><br />
+              <strong>Katie & the VALDRA crew</strong>
             </p>
             <a href="/contact" className="btn btn-primary">Connect With Us</a>
           </div>

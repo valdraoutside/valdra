@@ -46,12 +46,13 @@ const Footer = () => {
           <div className="footer-section">
             <h4>Location</h4>
             <p>Telluride, Colorado</p>
-            <p className="footer-community">Building a global outdoor community</p>
+            <p className="footer-community">Made with love on the Western Slope</p>
           </div>
         </div>
         
         <div className="footer-bottom">
           <p>&copy; 2026 VALDRA Outside. All rights reserved.</p>
+          <p>Peace to you and everyone you love.</p>
         </div>
       </div>
     </footer>

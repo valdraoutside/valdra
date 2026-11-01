@@ -65,7 +65,7 @@ const Contact = () => {
           <div className="contact-hero-content fade-in">
             <h1>Get in Touch</h1>
             <p className="hero-subtitle">
-              Ready to join the adventure? We'd love to hear from you.
+              Say hi. We read everything.
             </p>
           </div>
         </div>
@@ -77,8 +77,8 @@ const Contact = () => {
             <div className="contact-form-section">
               <h2>Send us a message</h2>
               <p>
-                Whether you want to join our community, have questions about our products, 
-                or just want to say hello, we're here to connect.
+                Questions about an order, want to collab, or just want to tell us about your
+                last big day out? Drop us a note.
               </p>
               
               <form className="contact-form" onSubmit={handleSubmit}>
@@ -227,8 +227,8 @@ const Contact = () => {
               Much love to our Western Slope peeps. Reach out if you want to get involved. ♥
             </p>
             <p className="community-note">
-              We're building a brand that grows with our community. 
-              If you're reading this, you're already part of it.
+              We're building a brand that grows with our community.
+              If you're reading this, you're already part of it. It will be worth it.
             </p>
           </div>
         </div>
