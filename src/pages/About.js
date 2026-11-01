@@ -73,7 +73,7 @@ const About = () => {
                 </p>
               </div>
               <div className="vision-item">
-                <h3>The Ride or Dies</h3>
+                <h3>The Hype Squad</h3>
                 <p>
                   The friends who belay you, film you, and won't let you quit halfway up
                   the wall.
