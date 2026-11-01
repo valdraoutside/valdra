@@ -45,7 +45,7 @@ const About = () => {
           <div className="vision-content fade-in">
             <h2>Who We're Building For</h2>
             <p className="vision-intro">
-              VALDRA is for people who get outside and go for it—people who move, explore, 
+              VALDRA is for people who get outside and go for it: people who move, explore, 
               get a little scraped up, and come back for more. Whether scrambling up peaks 
               or navigating city streets, there's a place for you here.
             </p>
@@ -100,7 +100,7 @@ const About = () => {
               <p>
                 Built to hold when you need it, add light support, and stay comfortable
                 over time, it's meant to be used across a range of pressure points
-                wherever skin starts to get pushed—aiming for multiple uses and not
+                wherever skin starts to get pushed. It's built for multiple uses and isn't
                 intended for open wounds.
               </p>
             </div>

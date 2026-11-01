@@ -46,7 +46,7 @@ const Shop = () => {
             <h2>Get Notified</h2>
             <p>
               Subscribe to our Substack to be the first to know when new drops land.
-              Free signup — drop your email on the next page and you're in.
+              Free signup: drop your email on the next page and you're in.
             </p>
             <div className="newsletter-actions">
               <a

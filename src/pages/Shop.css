@@ -113,8 +113,8 @@
   min-height: 400px;
 }
 
-/* OS-native <select> popup options ignore most SDK styles —
-   force dark bg + white text so they remain readable when opened. */
+/* OS-native <select> popup options ignore most SDK styles.
+   Force dark bg + white text so they remain readable when opened. */
 .shopify-frame select option {
   background-color: #1a1a1a;
   color: #ffffff;

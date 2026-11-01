@@ -43,7 +43,7 @@ const Landing = () => {
             <div className="mission-text">
               <h2>Our Mission</h2>
               <p>
-                VALDRA is more than equipment—it's about inspiring people to share in the adventure. 
+                VALDRA is more than equipment. It's about inspiring people to share in the adventure. 
                 We're building a lasting outdoor community rooted in connection, resilience, and innovation.
               </p>
               <p>

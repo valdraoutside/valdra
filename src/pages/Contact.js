@@ -142,7 +142,7 @@ const Contact = () => {
 
                 {status === 'success' && (
                   <div className="form-status form-status-success" role="status">
-                    Thanks for reaching out — we got your message and will be in touch soon.
+                    Thanks for reaching out! We got your message and will be in touch soon.
                   </div>
                 )}
                 {status === 'error' && (
@@ -209,7 +209,7 @@ const Contact = () => {
                     </a>
                   </div>
                   <p className="social-note">
-                    "This is a necessary evil, don't judge us we beg—we aren't TikTok people." 😄
+                    "This is a necessary evil, don't judge us, we beg. We aren't TikTok people." 😄
                   </p>
                 </div>
 
